@@ -1,2 +1,20 @@
+/* Colors */
+.color-1 {
+background: red;
+}
+.color-2 {
+background: white;
+}
+.color-3 {
+background: blue;
+}
+.color-4 {
+    background: black;
+}
 
+/* Textures and Patterns */
 
+.pattern-1 {
+    background: url("http://www.euclidlibrary.org/images/tickle-your-brain/o-american-flag-facebook.jpg?sfvrsn=0") 50%, 50%;
+    background-size: auto;
+}
