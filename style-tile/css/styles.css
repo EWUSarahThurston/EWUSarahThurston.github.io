@@ -29,6 +29,13 @@ background: blue;
         10px 5px 0 white,
         15px 5px 0 blue;
 }
+.imagery-2 img {
+    box-shadow: 5px 5px 0 red,
+        10px 5px 0 white,
+        15px 5px 0 blue;
+    height: 300px;
+    width: 400px;
+}
 /* Icons */
 .icon-1 {
     border: none;
@@ -41,12 +48,37 @@ background: blue;
 /* Navigation */
 nav li {
     list-style: none;
-    display: inline-block;
+    float: left;
+    
+}
+nav a:link {
+    background: red;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    padding: 20px 20px 5px 20px;
+    text-decoration: none;
+    
+}
+nav a:visited {
+   color: white; 
+}
+
+nav a:focus {
+    background: purple;
+    border: 10px solid red;
+}
+
+nav a:hover {
+    background: white;
+    color: red;
+    margin-top: 20px;
     
 }
 
-
-
+nav a-active: {
+    background: black;
+}
 
 
 
