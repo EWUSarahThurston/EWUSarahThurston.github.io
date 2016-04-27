@@ -15,6 +15,46 @@ background: blue;
 /* Textures and Patterns */
 
 .pattern-1 {
-    background: url("http://www.euclidlibrary.org/images/tickle-your-brain/o-american-flag-facebook.jpg?sfvrsn=0") 50%, 50%;
-    background-size: auto;
+    background: url("http://www.euclidlibrary.org/images/tickle-your-brain/o-american-flag-facebook.jpg?sfvrsn=0") no-repeat;
+    background-size: cover;
 }
+.pattern-2 {
+    background: url("../img/starbucks.jpg"); no-repeat;
+    background-size: contain;
+}
+/* Images */
+
+.imagery-1 img {
+    box-shadow: 5px 5px 0 red,
+        10px 5px 0 white,
+        15px 5px 0 blue;
+}
+/* Icons */
+.icon-1 {
+    border: none;
+}
+.icon-2 {
+   background: url("../img/iconmonstr-home-9-240.png");
+    background-size: contain;
+}
+
+/* Navigation */
+nav li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
