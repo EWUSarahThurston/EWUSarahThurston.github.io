@@ -25,20 +25,20 @@ background: #72b0b0;
     background-size: cover;
 }
 .pattern-2 {
-    background: url("../img/185e6db5581a5c21e8a9f9b5018548fa.jpg"); no-repeat;
-    background-size: contain;
+    background: url("../img/185e6db5581a5c21e8a9f9b5018548fa.jpg") no-repeat;
+    background-size: cover;
+}
+.pattern-3 {
+    background: url("../img/Screen-Shot-2014-01-05-at-9.30.07-PM.png") no-repeat;
+    background-size: cover;
 }
 /* Images */
 
 .imagery-1 img {
-    box-shadow: 5px 5px 0 red,
-        10px 5px 0 white,
-        15px 5px 0 blue;
+    background: url("/img/tumblr_m2hrft08hW1r9joplo1_400.jpg") no-repeat;
+    height: 200px;
 }
 .imagery-2 img {
-    box-shadow: 5px 5px 0 red,
-        10px 5px 0 white,
-        15px 5px 0 blue;
     height: 300px;
     width: 400px;
 }
