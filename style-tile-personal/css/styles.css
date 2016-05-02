@@ -1,25 +1,31 @@
 /* Colors */
 .color-1 {
-background: red;
-}
-.color-2 {
 background: white;
 }
+.color-2 {
+background: black;
+}
 .color-3 {
-background: blue;
+background: #72b0b0;
 }
 .color-4 {
-    background: black;
+    background: #e0959a;
+}
+.color-5 {
+    background: #43b952;
+}
+.color-6 {
+    background: #d5b386;
 }
 
 /* Textures and Patterns */
 
 .pattern-1 {
-    background: url("http://www.euclidlibrary.org/images/tickle-your-brain/o-american-flag-facebook.jpg?sfvrsn=0") no-repeat;
+    background: url("../img/hanna-konola_birthday.jpg") no-repeat;
     background-size: cover;
 }
 .pattern-2 {
-    background: url("../img/starbucks.jpg"); no-repeat;
+    background: url("../img/185e6db5581a5c21e8a9f9b5018548fa.jpg"); no-repeat;
     background-size: contain;
 }
 /* Images */
