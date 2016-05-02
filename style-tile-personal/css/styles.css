@@ -1,0 +1,92 @@
+/* Colors */
+.color-1 {
+background: red;
+}
+.color-2 {
+background: white;
+}
+.color-3 {
+background: blue;
+}
+.color-4 {
+    background: black;
+}
+
+/* Textures and Patterns */
+
+.pattern-1 {
+    background: url("http://www.euclidlibrary.org/images/tickle-your-brain/o-american-flag-facebook.jpg?sfvrsn=0") no-repeat;
+    background-size: cover;
+}
+.pattern-2 {
+    background: url("../img/starbucks.jpg"); no-repeat;
+    background-size: contain;
+}
+/* Images */
+
+.imagery-1 img {
+    box-shadow: 5px 5px 0 red,
+        10px 5px 0 white,
+        15px 5px 0 blue;
+}
+.imagery-2 img {
+    box-shadow: 5px 5px 0 red,
+        10px 5px 0 white,
+        15px 5px 0 blue;
+    height: 300px;
+    width: 400px;
+}
+/* Icons */
+.icon-1 {
+    border: none;
+}
+.icon-2 {
+   background: url("../img/iconmonstr-home-9-240.png");
+    background-size: contain;
+}
+
+/* Navigation */
+nav li {
+    list-style: none;
+    float: left;
+    
+}
+nav a:link {
+    background: red;
+    border-bottom: 2px solid blue;
+    border-radius: 5px;
+    margin: 0 10px 0 10px;
+    padding: 20px 20px 5px 20px;
+    text-decoration: none;
+    
+}
+nav a:visited {
+   color: white; 
+}
+
+nav a:focus {
+    background: purple;
+    border: 10px solid red;
+}
+
+nav a:hover {
+    background: white;
+    color: red;
+    margin-top: 20px;
+    
+}
+
+nav a-active: {
+    background: black;
+}
+
+
+
+
+
+
+
+
+
+
+
