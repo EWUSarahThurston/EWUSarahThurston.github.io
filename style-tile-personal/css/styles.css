@@ -35,20 +35,24 @@ background: #72b0b0;
 /* Images */
 
 .imagery-1 img {
-    background: url("/img/tumblr_m2hrft08hW1r9joplo1_400.jpg") no-repeat;
+    
     height: 200px;
 }
 .imagery-2 img {
+    height: 300px; 
+}
+.imagery-3 img {
     height: 300px;
-    width: 400px;
 }
 /* Icons */
-.icon-1 {
-    border: none;
+.icon-1 { 
+    border: 5px;
+    height: 100px;
+    width: 100px; 
 }
 .icon-2 {
-   background: url("../img/iconmonstr-home-9-240.png");
-    background-size: contain;
+    height: 100px;
+    
 }
 
 /* Navigation */
@@ -86,7 +90,11 @@ nav a-active: {
     background: black;
 }
 
+/*  Typography */
 
+.typography {
+    font-family: 'Eczar', serif;
+}
 
 
 
