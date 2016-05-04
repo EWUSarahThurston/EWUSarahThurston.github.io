@@ -50,16 +50,26 @@ background: #72b0b0;
     height: 25px;
     width: 25px; 
 }
+.icon-1:hover {
+    background: #72b0b0;
+}
 .icon-2 {
     background: #000;
     height: 25px;
     width: 25px; 
     }
+.icon-2:hover {
+    background: #43b952;
+}
 .icon-3 {
     background: #000;
     height: 25px;
     width: 25px; 
 }
+.icon-3:hover {
+    background: #d5b386;
+}
+
 
 /* Navigation */
 nav li {
@@ -68,28 +78,24 @@ nav li {
     
 }
 nav a:link {
-    background:
-    border-bottom: 2px solid blue;
+    background: white;
+    border-color: white;
     border-radius: 5px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600; 
     margin: 0 10px 0 10px;
-    padding: 20px 20px 5px 20px;
-    text-decoration: none;
-    
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;    
 }
 nav a:visited {
-   color: white; 
-}
-
-nav a:focus {
-    background: purple;
-    border: 10px solid red;
+   color: #3D3D3D; 
 }
 
 nav a:hover {
-    background: white;
-    color: red;
-    margin-top: 20px;
-    
+    background: black;
+    color: white;
+    margin-top: 20px;    
 }
 
 nav a-active: {
@@ -99,7 +105,22 @@ nav a-active: {
 /*  Typography */
 
 .typography {
-    font-family: 'Eczar', serif;
+    font-family: 'Tienne', serif;
+}
+h1 { font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 700;
+}
+h2 {
+   font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600; 
+}
+h3 {
+  font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 400;   
+}
+p {
+  font-family: 'Tienne', serif;
+    
 }
 
 
