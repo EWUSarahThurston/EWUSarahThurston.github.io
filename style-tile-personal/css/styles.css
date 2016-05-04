@@ -9,7 +9,7 @@ background: black;
 background: #72b0b0;
 }
 .color-4 {
-    background: #e0959a;
+    background: #3D3D3D;
 }
 .color-5 {
     background: #43b952;
@@ -46,13 +46,19 @@ background: #72b0b0;
 }
 /* Icons */
 .icon-1 { 
-    border: 5px;
-    height: 100px;
-    width: 100px; 
+    background: #000;
+    height: 25px;
+    width: 25px; 
 }
 .icon-2 {
-    height: 100px;
-    
+    background: #000;
+    height: 25px;
+    width: 25px; 
+    }
+.icon-3 {
+    background: #000;
+    height: 25px;
+    width: 25px; 
 }
 
 /* Navigation */
@@ -62,7 +68,7 @@ nav li {
     
 }
 nav a:link {
-    background: red;
+    background:
     border-bottom: 2px solid blue;
     border-radius: 5px;
     margin: 0 10px 0 10px;
