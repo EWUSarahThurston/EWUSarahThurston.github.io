@@ -1,1 +1,29 @@
 /* My Awesome Styling */
+/*Global*/
+body {
+    background: url("../img/bg.jpg");
+}
+/*Header*/
+header img {
+    width: 100px;
+    height: 100px;
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+nav a:link, 
+nav a:visited {
+  background: red;
+  padding: 1em;
+  text-decoration: none;
+  transition: all .5s;
+}
+nav a:hover {
+  background: blue; 
+  margin-left: .5em;
+}
+nav a:active {
+  background: yellow;
+  
+}
