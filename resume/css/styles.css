@@ -3,7 +3,7 @@
 
 .primary-nav{
     position: fixed;
-    background: black;
+    background: white;
       width: 100%;
       margin: 0;
       left: 0;
@@ -19,10 +19,10 @@ nav li {
 }
 
 nav a:link {
-    background: black;
-    border-color: black;
+    background: white;
+    border-color: white;
     border-radius: 5px;
-    color: white;
+    color: black;
     font-family: 'Josefin Sans', sans-serif; 
     font-weight: 600; 
     margin: .5px 10px 5px 10px;
@@ -31,7 +31,7 @@ nav a:link {
 }
 
 nav a:visited {
-   color: #3D3D3D; 
+   color: #d5b386; 
 }
 
 nav a:hover {
@@ -41,13 +41,41 @@ nav a:hover {
 }
 
 nav a-active: {
-    background: black;
+   color: #43b952;
 }
-
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
 p {
     font-family: 'Tienne', serif;
+}
+#col-A {
+    position: static;
+  background-image: url("../img/bg.jpg");
+  padding-top: 10px;
+    
+}
+#headline {
+    background: rgba(255,255,255,.65);
+    color: black;
+    float: left;
+    font-size: 2em;
+    margin: 2em;
+    padding: 4em;
+    position: static;
+   
+}
+#col-B {
+    padding-top: 10px;
+    width: 200px;
+}
+#col-C {
+    background: #72b0b0;
+}
+#col-D {
+    
+}
+#col-E {
+    background: purple;
 }
