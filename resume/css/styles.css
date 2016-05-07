@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Tienne:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700,700italic,600,600italic,100,100italic);
+
+.primary-nav{
+    position: fixed;
+    background: black;
+      width: 100%;
+      margin: 0;
+      left: 0;
+      top: 0;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+
+nav li {
+    list-style: none;
+    float: left; 
+    padding-left: 30px;
+}
+
+nav a:link {
+    background: black;
+    border-color: black;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600; 
+    margin: .5px 10px 5px 10px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;    
+}
+
+nav a:visited {
+   color: #3D3D3D; 
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+    margin-top: 20px;    
+}
+
+nav a-active: {
+    background: black;
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+p {
+    font-family: 'Tienne', serif;
+}
