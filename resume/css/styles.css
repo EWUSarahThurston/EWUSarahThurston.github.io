@@ -51,10 +51,9 @@ p {
     font-family: 'Tienne', serif;
 }
 #col-A {
-    position: static;
   background-image: url("../img/bg.jpg");
   padding-top: 10px;
-    
+  position: relative;  
 }
 #headline {
     background: rgba(255,255,255,.65);
@@ -64,18 +63,44 @@ p {
     margin: 2em;
     padding: 4em;
     position: static;
-   
+}
+.container {
+   display: inline-block;
 }
 #col-B {
-    padding-top: 10px;
+    float: left;
+    margin: 1em;
+    padding: 10px;
+
     width: 200px;
 }
 #col-C {
     background: #72b0b0;
+    border-radius: 20px;
+    float: right;
+    margin: .5em;
+    padding: 10px;
+ 
 }
 #col-D {
+    
+    float: right;
+    margin: .5em;
+    padding: 10px;
     
 }
 #col-E {
     background: purple;
+    border-radius: 20px;
+    float: right;
+    margin: .5em;
+    padding: 10px;
+
+}
+#col-F {
+     background: blue;
+    float: right;
+    margin: .5em;
+    padding: 10px;
+
 }
