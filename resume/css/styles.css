@@ -102,5 +102,38 @@ p {
     float: right;
     margin: .5em;
     padding: 10px;
+}
+
+
+
+section p {
+
+    margin-bottom: 50px;
 
 }
+
+.edu p {
+	margin-right: 50px;
+    margin-left: 30px;
+
+ 	
+ }
+
+ article ul {
+ 	padding: 0 30px;
+ }
+ article li {
+ 	margin-top: 20px;
+ 	font-family: tienne;
+ 	font-size: 16px;
+ 	list-style: none;
+ }
+ 
+
+
+.edu {
+	
+ 	border-bottom: rgba(52, 201, 160, 0.68) 4px double;
+ }
+
+
