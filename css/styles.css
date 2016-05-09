@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700,700italic,600,600italic,100,100italic);
 
 
-
+/* Nav */
 .primary-nav{
     position: fixed;
     background: white;
@@ -46,6 +46,8 @@ nav a-active: {
    color: #43b952;
 }
 
+ /* Fonts*/
+
 h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -66,12 +68,10 @@ ul {
     font-family: 'Tienne', serif;
     font-size: 14px;
 }
-#col-A {
-  background-image: url("../img/bg.jpg");
-  padding-top: 10px;
-  position: relative;  
+
+
 }
-#headline {
+#header {
     background: rgba(255,255,255,.65);
     color: black;
     float: left;
@@ -80,50 +80,10 @@ ul {
     padding: 4em;
     position: static;
 }
-.container {
-   display: inline-block;
-}
-#col-B {
-    float: left;
-    margin: 1em;
-    padding: 10px;
-
-    width: 200px;
-}
-#col-C {
-    background: #72b0b0;
-    border-radius: 20px;
-    float: right;
-    margin: .5em;
-    padding: 10px;
- 
-}
-#col-D {
-    
-    float: right;
-    margin: .5em;
-    padding: 10px;
-    
-}
-#col-E {
-    background: purple;
-    border-radius: 20px;
-    float: right;
-    margin: .5em;
-    padding: 10px;
-
-}
-#col-F {
-     background: blue;
-    float: right;
-    margin: .5em;
-    padding: 10px;
-}
-
-
-
-section p {
-    margin-bottom: 50px;
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
 }
 
 .edu p {
