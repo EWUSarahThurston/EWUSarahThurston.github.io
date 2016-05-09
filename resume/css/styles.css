@@ -47,8 +47,22 @@ nav a-active: {
 h1 {
     font-family: 'Josefin Sans', sans-serif;
 }
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+h4 {font-family: 'Josefin Sans', sans-serif;
+    
+}
 p {
     font-family: 'Tienne', serif;
+    font-size: 14px;
+}
+ul {
+    font-family: 'Tienne', serif;
+    font-size: 14px;
 }
 #col-A {
   background-image: url("../img/bg.jpg");
