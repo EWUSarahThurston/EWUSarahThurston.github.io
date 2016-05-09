@@ -1,0 +1,75 @@
+/* My Awesome Styling */
+/*Global*/
+
+/*Header*/
+
+
+/* Main Nav */
+.primary-nav{
+    position: fixed;
+    background: black;
+      width: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+  text-align: left;
+    color: #d5b386;
+    padding-left: 30px;
+}
+nav li {
+    list-style: none;
+    float: left;    
+}
+nav a:link {
+    background: white;
+    border-color: white;
+    border-radius: 5px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600; 
+    margin: 0 10px 0 10px;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;    
+}
+nav a:visited {
+   color: #3D3D3D; 
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+    margin-top: 20px;    
+}
+
+nav a-active: {
+    background: black;
+}
+
+/* Body */
+
+
+
+article img {
+ width: 100px;   
+}
+#col-A {
+background-color: #72b0b0;
+}
+#col-B {
+ background-color: #d5b386
+}
+h1 { font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 700;
+}
+h2 {
+   font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 600; 
+}
+h3 {
+  font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 400;   
+}
+p {
+  font-family: 'Tienne', serif;
+    
+}

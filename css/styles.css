@@ -1,25 +1,25 @@
-/* My Awesome Styling */
-/*Global*/
-
-/*Header*/
+@import url(https://fonts.googleapis.com/css?family=Tienne:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700,700italic,600,600italic,100,100italic);
 
 
-/* Main Nav */
+
 .primary-nav{
     position: fixed;
-    background: black;
+    background: white;
       width: 100%;
-  margin: 0;
-  left: 0;
-  top: 0;
-  text-align: left;
-    color: #d5b386;
+      margin: 0;
+      left: 0;
+      top: 0;
     padding-left: 30px;
+    padding-bottom: 15px;
 }
+
 nav li {
     list-style: none;
-    float: left;    
+    float: left; 
+    padding-left: 30px;
 }
+
 nav a:link {
     background: white;
     border-color: white;
@@ -27,12 +27,13 @@ nav a:link {
     color: black;
     font-family: 'Josefin Sans', sans-serif; 
     font-weight: 600; 
-    margin: 0 10px 0 10px;
+    margin: .5px 10px 5px 10px;
     padding: 5px 5px 5px 5px;
     text-decoration: none;    
 }
+
 nav a:visited {
-   color: #3D3D3D; 
+   color: #d5b386; 
 }
 
 nav a:hover {
@@ -42,34 +43,105 @@ nav a:hover {
 }
 
 nav a-active: {
-    background: black;
+   color: #43b952;
 }
 
-/* Body */
-
-
-
-article img {
- width: 100px;   
-}
-#col-A {
-background-color: #72b0b0;
-}
-#col-B {
- background-color: #d5b386
-}
-h1 { font-family: 'Josefin Sans', sans-serif; 
-    font-weight: 700;
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
 }
 h2 {
-   font-family: 'Josefin Sans', sans-serif; 
-    font-weight: 600; 
+    font-family: 'Josefin Sans', sans-serif;
 }
 h3 {
-  font-family: 'Josefin Sans', sans-serif; 
-    font-weight: 400;   
+    font-family: 'Josefin Sans', sans-serif;
 }
-p {
-  font-family: 'Tienne', serif;
+h4 {font-family: 'Josefin Sans', sans-serif;
     
 }
+p {
+    font-family: 'Tienne', serif;
+    font-size: 14px;
+}
+ul {
+    font-family: 'Tienne', serif;
+    font-size: 14px;
+}
+#col-A {
+  background-image: url("../img/bg.jpg");
+  padding-top: 10px;
+  position: relative;  
+}
+#headline {
+    background: rgba(255,255,255,.65);
+    color: black;
+    float: left;
+    font-size: 2em;
+    margin: 2em;
+    padding: 4em;
+    position: static;
+}
+.container {
+   display: inline-block;
+}
+#col-B {
+    float: left;
+    margin: 1em;
+    padding: 10px;
+
+    width: 200px;
+}
+#col-C {
+    background: #72b0b0;
+    border-radius: 20px;
+    float: right;
+    margin: .5em;
+    padding: 10px;
+ 
+}
+#col-D {
+    
+    float: right;
+    margin: .5em;
+    padding: 10px;
+    
+}
+#col-E {
+    background: purple;
+    border-radius: 20px;
+    float: right;
+    margin: .5em;
+    padding: 10px;
+
+}
+#col-F {
+     background: blue;
+    float: right;
+    margin: .5em;
+    padding: 10px;
+}
+
+
+
+section p {
+    margin-bottom: 50px;
+}
+
+.edu p {
+	margin-right: 50px;
+    margin-left: 30px;
+ }
+
+ article ul {
+ 	padding: 0 30px;
+ }
+ article li {
+ 	margin-top: 20px;
+ 	font-family: tienne;
+ 	font-size: 16px;
+ 	list-style: none;
+ }
+.edu {	
+ 	border-bottom: 4px; 
+    border-bottom-color: black;
+ }
+
