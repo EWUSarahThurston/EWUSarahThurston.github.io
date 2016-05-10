@@ -88,10 +88,11 @@ header {
 
 }
 section {
-display: block;
+display: inline-block;
   float: left;
   margin: 0 1.5%;
-    margin-top: 50px;
+  margin-top: 50px;
+  padding: 10px;
   position: static;
   width: 20%;
 }
