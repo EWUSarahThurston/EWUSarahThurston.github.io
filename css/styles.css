@@ -15,6 +15,7 @@
 }
 
 nav li {
+    font-size: 1.5em;
     list-style: none;
     float: left; 
     padding-left: 30px;
@@ -73,35 +74,62 @@ ul {
 
 header {
     background: rgba(255,255,255,.65);
-    color: black;
+    background-image: url(../img/cactus.jpg);
+    color: white;
+    display: inline;
+    height: 400px;
     float: left;
     font-size: 2em;
-    margin: 2em;
+    margin: 1em;
+    margin-top: 50px;
     padding: 4em;
-    position: static;
+    position: relative;
+    width: 300px;
+
 }
 section {
+display: block;
   float: left;
   margin: 0 1.5%;
-  width: 30%;
+    margin-top: 50px;
+  position: static;
+  width: 20%;
 }
 
 .edu p {
-	margin-right: 50px;
-    margin-left: 30px;
+	margin-right: 10px;
+    margin-left: 0px;
  }
 
+article ol {
+    font-family: tienne;
+    padding-left: 0px;
+}
  article ul {
- 	padding: 0 30px;
+     list-style-image: inherit;
+ 	padding: 0 0px;
  }
  article li {
- 	margin-top: 20px;
+ 	margin-top: 15px;
  	font-family: tienne;
- 	font-size: 16px;
+ 	font-size: 14px;
  	list-style: none;
  }
-.edu {	
- 	border-bottom: 4px; 
-    border-bottom-color: black;
- }
 
+.grid-4 {
+    margin-top: 50px;
+}
+
+/* Contact Page */
+
+contact {
+    background: purple;
+    display: block;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+contact a:link {
+    color: black;
+    text-decoration: none;
+}
