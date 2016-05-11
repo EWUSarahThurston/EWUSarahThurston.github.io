@@ -127,12 +127,12 @@ article ol {
 
 .contact {
     margin-left: 100px;
-    margin-right: 10px;
     margin-top: 200px;
     padding-left: 20px;
     padding-top: 20px;
      float: left;
- position: static;
+ position: fixed;
+    background: rgba(255,255,255,.65);
 }
 .phones {
     margin-left: 50px;
