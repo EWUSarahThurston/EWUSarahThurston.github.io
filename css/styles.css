@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Tienne:400,700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,700,700italic,600,600italic,100,100italic);
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
 
 
 /* Nav */
@@ -63,7 +64,7 @@ h4 {font-family: 'Josefin Sans', sans-serif;
 }
 p {
     font-family: 'Tienne', serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 ul {
     font-family: 'Tienne', serif;
@@ -75,16 +76,17 @@ ul {
 header {
     background: rgba(255,255,255,.65);
     background-image: url(../img/cactus.jpg);
+    background-repeat: no-repeat;
     color: white;
     display: inline;
     height: 400px;
     float: left;
-    font-size: 2em;
-    margin: 1em;
+    font-size: 2.25em;
+    margin-left: 1em;
     margin-top: 50px;
     padding: 4em;
-    position: relative;
-    width: 300px;
+    position: static;
+    width: 450px;
 
 }
 section {
@@ -123,14 +125,16 @@ article ol {
 
 /* Contact Page */
 
-contact {
-    background: purple;
-    display: block;
-    margin-left: 20px;
-    margin-top: 50px;
+.contact {
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 200px;
+    padding-left: 20px;
     padding-top: 20px;
+     float: left;
+ position: static;
 }
-contact a:link {
-    color: black;
-    text-decoration: none;
+.phones {
+    margin-left: 50px;
+    margin-top: 20px;
 }
