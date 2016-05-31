@@ -146,3 +146,19 @@ li {
     margin-left: 50px;
     margin-top: 20px;
 }
+/* Portfolio */
+.portfolio {
+    display: flex;
+}
+.portfolio figure {
+     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.portfolio figure img{
+    height: 200px;
+    width: 300px;
+    margin: 10px auto;
+    padding: 5px;
+}
