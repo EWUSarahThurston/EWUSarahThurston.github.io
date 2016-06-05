@@ -141,30 +141,49 @@ display: inline-block;
 
 /* Resume */
 
+.resume {
+  display: flex;
+  margin-top: 100px;
+   display: -ms-flexbox;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+#work {
+ 
+  width: 30%;
+  flex-grow: 2;
+  -webkit-align-self: flex-start;
+   align-self: flex-start;
+  margin-left: 20px;
+}
+
+#skill {
+  
+  height: 25%;
+  flex-grow: 2;
+}
+
 .edu p {
 	margin-right: 10px;
-    margin-left: 0px;
+  margin-left: 0px;
  }
-
-article ol {
-    font-family: tienne;
-    padding-left: 0px;
+.resume h2 {
+  margin-left: 175px;
 }
- article ul {
+.resume ol {
+    font-family: tienne;
+    margin-left: 100px;
+}
+ .resume ul {
      list-style-image: inherit;
  	padding: 0 0px;
  }
- article li {
+ .resume li {
  	margin-top: 15px;
  	font-family: tienne;
  	font-size: 14px;
  	list-style: none;
  }
-
-.grid-4 {
-    margin-top: 50px;
-}
-
 /* Contact Page */
 
  .box1 {
@@ -173,11 +192,11 @@ article ol {
    justify-content: left;
     background-image: url(../img/phones.jpg);
      background-repeat: no-repeat;
-   margin-left: 100px;
+     margin-left: 100px;
      margin-top: 50px;
-      overflow: hidden;
-      height: 750px;
-    width: 400px;
+     overflow: hidden;
+     height: 750px;
+     width: 400px;
     flex-grow: 2;
     padding: 0;
     z-index: -1;
