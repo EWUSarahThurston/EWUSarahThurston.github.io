@@ -107,7 +107,7 @@ display: inline-block;
   
 }
 #A {
-    background-image: url(../img/cactus.jpg)
+    background-image: url(../img/cactus.jpg);
     height: 750px;
     width: 400px;
     overflow: hidden;
@@ -128,13 +128,13 @@ display: inline-block;
 #B {
     height: 400px;
     padding: 10px;
-    flex-grow: 1;
+    flex-grow: 0;
 }
 #C {
     width: 100px;
     height: 200px;
     padding: 10px;
-    flex-grow: 2;
+    flex-grow: 1;
     
 }
 
@@ -167,27 +167,45 @@ article ol {
 
 /* Contact Page */
 
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-li {
-    list-style: none;
+ .box1 {
+   display: flex;
+     flex-flow: row wrap;
+   justify-content: left;
+    background-image: url(../img/phones.jpg);
+     background-repeat: no-repeat;
+   margin-left: 100px;
+     margin-top: 50px;
+      overflow: hidden;
+      height: 750px;
+    width: 400px;
+    flex-grow: 2;
+    padding: 0;
+    z-index: -1;
 }
 .contact {
-    margin-left: 100px;
-    margin-top: 200px;
-    padding-left: 20px;
-    padding-top: 20px;
-    float: left;
-    position: fixed;
+  justify-content: center;
+  color: white;
+  padding-left: 100px;
+    padding-top: 100px;
     background: rgba(255,255,255,.65);
 }
-.phones {
-    margin-left: 50px;
-    margin-top: 20px;
+
+.contact a:link,
+a:visited {
+  text-decoration: none;
+    color: black;
 }
+
+.contact li {
+    list-style: none;
+    
+}
+
+.contact h1 {
+    color: black;
+    font-size: 2em;
+}
+
 /* Portfolio 
 .portfolio {
     display: inline-flex;
