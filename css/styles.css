@@ -163,10 +163,11 @@ display: inline-block;
 #skill {
   height: 25%;
   flex-grow: 2;
+    margin-left: auto;
 }
-#skill h2{
+/* #skill h2{
     margin-left: 125px;
-}
+} */
 .edu p {
 	margin-right: 10px;
   margin-left: 0px;
@@ -174,7 +175,7 @@ display: inline-block;
 
 .resume ol {
     font-family: tienne;
-    margin-left: 100px;
+    margin-left: auto;
 }
  .resume ul {
      list-style-image: inherit;
