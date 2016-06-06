@@ -26,7 +26,7 @@ nav a:link {
     background: white;
     border-color: white;
     border-radius: 5px;
-    color: black;
+    color: #d5b386;
     font-family: 'Josefin Sans', sans-serif; 
     font-weight: 600; 
     margin: .5px 10px 5px 10px;
@@ -35,17 +35,13 @@ nav a:link {
 }
 
 nav a:visited {
-   color: #d5b386; 
+   color: #43b952; 
 }
 
 nav a:hover {
     background: black;
     color: white;
     margin-top: 20px;    
-}
-
-nav a-active: {
-   color: #43b952;
 }
 
  /* Fonts*/
@@ -135,15 +131,19 @@ display: inline-block;
     height: 200px;
     padding: 10px;
     flex-grow: 1;
-    
+    margin-top: 50px;
 }
 
 
 /* Resume */
+.headline {
+    background-image: url(../img/bg.jpg);
+    height: 200px;
+}
 
 .resume {
   display: flex;
-  margin-top: 100px;
+  margin-top: 10px;
    display: -ms-flexbox;
   flex-flow: row wrap;
   align-content: flex-start;
@@ -156,20 +156,22 @@ display: inline-block;
    align-self: flex-start;
   margin-left: 20px;
 }
+#work h2 {
+  margin-left: auto;
+}
 
 #skill {
-  
   height: 25%;
   flex-grow: 2;
 }
-
+#skill h2{
+    margin-left: 125px;
+}
 .edu p {
 	margin-right: 10px;
   margin-left: 0px;
  }
-.resume h2 {
-  margin-left: 175px;
-}
+
 .resume ol {
     font-family: tienne;
     margin-left: 100px;
@@ -190,13 +192,13 @@ display: inline-block;
    display: flex;
      flex-flow: row wrap;
    justify-content: left;
-    background-image: url(../img/phones.jpg);
-     background-repeat: no-repeat;
+    background-image: url(../img/bg.jpg);
+    
      margin-left: 50px;
      margin-top: 50px;
      overflow: hidden;
-     height: 750px;
-     width: 400px;
+     height: 450px;
+     width: 1000px;
     flex-grow: 2;
     padding: 0;
     z-index: -1;
