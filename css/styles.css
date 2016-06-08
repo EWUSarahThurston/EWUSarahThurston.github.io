@@ -284,6 +284,7 @@ and (min-device-width : 320px)
         height: auto;
          margin: inherit;  
 }
+}
         
         @media only screen 
 and (min-device-width : 414px) 
@@ -296,6 +297,7 @@ and (min-device-width : 414px)
         width: 25%;
         height: auto;
          margin: inherit;           
+        }
         }
 
 @media screen and (min-width: 400px) {
@@ -333,6 +335,4 @@ figure figcaption h1 {
         height: auto;
         margin: inherit;
     }
-        
-
 }
