@@ -196,8 +196,7 @@ display: inline-block;
      flex-flow: row wrap;
    justify-content: left;
     background-image: url(../img/bg.jpg);
-    
-     margin-left: 50px;
+      margin-left: 50px;
      margin-top: 50px;
      overflow: hidden;
      height: 450px;
@@ -240,34 +239,74 @@ a:visited {
     align-content: space-around;
     align-items: center;
    width: 75%;
+
 }
 
 .portfolio figure img{
-    height: 200px;
-    width: 300px;
+   max-width: 75%;
+   height: auto;
+    position: relative;
+    padding: 20px;
 }
-
+/*
 figure {
   transform: scale(.6);
 }
-
-figure:hover {
-transform: scale(1.8);
-}
+*/
 
 figure figcaption {
   opacity: 0;
-  width: 200px;
- margin-left: 100px;
-    margin-bottom: 100px;
-}
-
-figure figcaption h1 {
-    color: white;
+ margin-left: 200px;
+margin-bottom: 400px;
+    padding-left: 20px;
+    position: absolute;
+    width: 400px;
 }
 
 figure:hover figcaption {
   opacity: 1;
   transition: all .5s;
     transform: translateY(-150px);
+    max-width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+    margin: auto;
+}
+
+@media screen and (min-width: 400px) {
+  figure figcaption h1 {
+    color: white;
+    font-size: 1em;    
+    }  
+    figure:hover figcaption {
+        width: 25%;
+        height: auto;
+         margin: inherit;
+    }
+}
+
+@media screen and (min-width: 600px) {
+figure figcaption h1 {
+    color: white;
+    font-size: 2em;    
+    }
+    figure:hover figcaption {
+        width: 33%;
+        height: auto;
+        margin: inherit;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+figure figcaption h1 {
+    color: white;
+    font-size: 3em;
+     max-width: 100%;
+}
+    figure:hover figcaption {
+        width: 50%;
+        height: auto;
+        margin: inherit;
+    }
+        
+
 }
