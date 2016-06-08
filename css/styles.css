@@ -167,9 +167,9 @@ display: inline-block;
   flex-grow: 2;
     margin-left: auto;
 }
-/* #skill h2{
-    margin-left: 125px;
-} */
+#skill h2{
+    margin-left: 50px;
+}
 .edu p {
 	margin-right: 10px;
   margin-left: 0px;
